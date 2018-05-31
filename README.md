@@ -2,7 +2,7 @@
 
 ![Lintang_Purwadhika](https://static.wixstatic.com/media/2e6af2_f69a4271c3534ae1869a7ed63e278b2b~mv2.png/v1/fill/w_246,h_39,al_c,usm_0.66_1.00_0.01/2e6af2_f69a4271c3534ae1869a7ed63e278b2b~mv2.png)
 
-**Materi Front-End Dev dapat diakses di [klik sini!](https://github.com/LintangWisesa/Purwadhika-JC05-02_FrontEnd)**
+**Materi Front-End Web Dev dapat diakses di [klik sini!](https://github.com/LintangWisesa/Purwadhika-JC05-02_FrontEnd)**
 #
 
 Panduan selengkapnya klik video berikut atau [klik di sini!](https://www.youtube.com/watch?v=mMdf0Q5VeCc)
@@ -12,7 +12,7 @@ Panduan selengkapnya klik video berikut atau [klik di sini!](https://www.youtube
 #
 ### **Soal 1 - Bikin Ketupat**
 
-Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar berikut:
+Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar di bawah ini. Fitur yang diminta hanya gambar belah ketupat dan teks dengan Google Fonts.
 
 ![Lintang_Lebaran](https://2.bp.blogspot.com/-wEKPsXIBSx4/Ww9iaGiv4TI/AAAAAAAAEK8/TEpx9tKDUOwaXcJzDe9UDQ6xGwFi3gfbwCLcBGAs/s640/soal1b.png)
 
@@ -21,7 +21,7 @@ Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar b
 #
 ### **Soal 2 - Dropdown Bersambung**
 
-Buatlah sebuah project React yang memiliki 2 buah dropdown menu (Jenjang Pendidikan dan Tingkatan Pendidikan), di mana konten opsi menu dropdown ke-2 bergantung pada pilihan user di menu dropdown pertama. Adapun susunan menu sebagai berikut:
+Buatlah sebuah project React yang memiliki 2 buah dropdown menu (_**Jenjang Pendidikan**_ dan _**Tingkatan Pendidikan**_), di mana konten opsi menu dropdown kedua (**_Tingkatan Pendidikan_**) bergantung pada pilihan user di menu dropdown pertama (_**Jenjang Pendidikan**_). Adapun susunan opsi menu sebagai berikut:
 - __Pendidikan Pra Sekolah__
   - *PAUD (Pendidikan Anak Usia Dini)*
   - *TK (Taman Kanak-kanak)*
