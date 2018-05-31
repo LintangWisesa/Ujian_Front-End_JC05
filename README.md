@@ -53,25 +53,6 @@ Buatlah sebuah project React yang memiliki 2 buah dropdown menu (_**Jenjang Pend
 ### **Soal 3 - Aplikasi Info Bitcoin**
 
 Buatlah sebuah aplikasi React yang memanfaatkan info seputar Bitcoin dari Blockchain API ([https://blockchain.info/api/exchange_rates_api](https://blockchain.info/api/exchange_rates_api)), dengan persyaratan sebagai berikut:
-- **Gunakan navigasi React-Router-DOM**
-  Aplikasi terdiri atas 3 halaman utama: info harga Bitcoin, konversi Rupiah ke Bitcoin dan konversi Bitcoin ke Rupiah. Gunakan Route untuk membuat path untuk setiap halaman.
-- **Gunakan Blockchain API**
-  - Halaman pertama (info harga Bitcoin) menyajikan harga jual & beli Bitcoin terhadap 5 mata uang asing: **_Dollar Australia (AUD), Euro Eropa (EUR), Poundsterling Inggris (GBP), Yen Jepang (JPY)_** dan **_Dollar Amerika (USD)_**. Gunakan Exchange Rates API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api).
-    ```bash
-    GET/ https://blockchain.info/ticker
-    ```
-  - ddc
-  - deded
-
-![Lintang_Bitcoin](https://4.bp.blogspot.com/-B6q5J-hz70Q/Ww9ic69eVnI/AAAAAAAAELE/W8cStewOUt8tk1NLkdRFArqfKVzgt9C_QCLcBGAs/s1600/soal3a.png)
-
->_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Bitcoin-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-Bitcoin-namaAnda__.*
-
-
-#
-### **Soal 3 - Aplikasi Info Bitcoin**
-
-Buatlah sebuah aplikasi React yang memanfaatkan info seputar Bitcoin dari Blockchain API ([https://blockchain.info/api/exchange_rates_api](https://blockchain.info/api/exchange_rates_api)), dengan persyaratan sebagai berikut:
 
 - **Gunakan navigasi React-Router-DOM**
   - Aplikasi terdiri atas **_3 halaman utama_**: info harga Bitcoin, konversi Rupiah ke Bitcoin dan konversi Bitcoin ke Rupiah. Gunakan Route untuk membuat path bagi setiap halaman.
