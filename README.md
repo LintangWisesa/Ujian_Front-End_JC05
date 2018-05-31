@@ -14,7 +14,7 @@ Panduan selengkapnya klik video berikut atau [klik di sini!](https://www.youtube
 
 Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar di bawah ini. Fitur yang diminta hanya gambar belah ketupat (_**bukan gambar/image!**_) dan teks dengan Google Fonts.
 
-![Lintang_Lebaran](https://2.bp.blogspot.com/-wEKPsXIBSx4/Ww9iaGiv4TI/AAAAAAAAEK8/TEpx9tKDUOwaXcJzDe9UDQ6xGwFi3gfbwCLcBGAs/s640/soal1b.png)
+![Lintang_Lebaran](https://2.bp.blogspot.com/-wEKPsXIBSx4/Ww9iaGiv4TI/AAAAAAAAEK8/TEpx9tKDUOwaXcJzDe9UDQ6xGwFi3gfbwCLcBGAs/s1600/soal1b.png)
 
 >_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Kartu-Lebaran-NamaAnda**. Salin file HTML aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Lanjutkan ke soal nomor 2, Kemudian kirimkan via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-1&2-namaAnda__.*
 
@@ -45,7 +45,7 @@ Buatlah sebuah project React yang memiliki 2 buah dropdown menu (_**Jenjang Pend
   - *S2 Magister*
   - *S3 Doktoral*
 
-![Lintang_Dropdown](https://1.bp.blogspot.com/-NCLE7bZNi-c/Ww9icUaTBXI/AAAAAAAAELA/Cnto57R195UeJcTHPHHEXViUuhukqCplgCLcBGAs/s640/soal2a.png)
+![Lintang_Dropdown](https://1.bp.blogspot.com/-NCLE7bZNi-c/Ww9icUaTBXI/AAAAAAAAELA/Cnto57R195UeJcTHPHHEXViUuhukqCplgCLcBGAs/s1600/soal2a.png)
 
 >_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Dropdown-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan beserta jawaban nomor 1 via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-1&2-namaAnda__.*
 
