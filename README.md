@@ -10,7 +10,7 @@ Panduan selengkapnya klik video berikut atau [klik di sini!](https://www.youtube
 [![Video_Lintang](https://img.youtube.com/vi/mMdf0Q5VeCc/0.jpg)](https://www.youtube.com/watch?v=mMdf0Q5VeCc)
 
 #
-### **Soal 1 - Bikin Ketupat**
+### **Soal 1 - Kartu Lebaran**
 
 Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar di bawah ini. Fitur yang diminta hanya gambar belah ketupat (_**bukan gambar/image!**_) dan teks dengan Google Fonts.
 
