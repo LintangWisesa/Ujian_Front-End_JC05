@@ -43,7 +43,7 @@ Buatlah sebuah project React yang memiliki 2 buah dropdown menu (Jenjang Pendidi
 
 ![Lintang_Dropdown](https://1.bp.blogspot.com/-NCLE7bZNi-c/Ww9icUaTBXI/AAAAAAAAELA/Cnto57R195UeJcTHPHHEXViUuhukqCplgCLcBGAs/s640/soal2a.png)
 
->_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Kartu-Lebaran-NamaAnda**. Salin file HTML aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Lanjutkan ke soal nomor 2, Kemudian kirimkan via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-1&2-namaAnda__.*
+>_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Dropdown-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan beserta jawaban nomor 1 via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-1&2-namaAnda__.*
 
 *__#HappyCoding__*
 
