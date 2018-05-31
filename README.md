@@ -22,19 +22,23 @@ Hanya dengan HTML & CSS, buatlah sebuah kartu Lebaran sederhana seperti gambar d
 ### **Soal 2 - Dropdown Bersambung**
 
 Buatlah sebuah project React yang memiliki 2 buah dropdown menu (_**Jenjang Pendidikan**_ dan _**Tingkatan Pendidikan**_), di mana konten opsi menu dropdown kedua (**_Tingkatan Pendidikan_**) bergantung pada pilihan user di menu dropdown pertama (_**Jenjang Pendidikan**_). Opsi yang user pilih akan ditampilkan sebagai title pada button dropdown. Adapun susunan opsi menu sebagai berikut:
+
 - __Pendidikan Pra Sekolah__
   - *PAUD (Pendidikan Anak Usia Dini)*
   - *TK (Taman Kanak-kanak)*
   - *RA (Raudhatul Athfal)*
+
 - __Pendidikan Dasar__
   - *SD (Sekolah Dasar)*
   - *MI (Madrasah Ibtidaiyah)*
   - *SMP (Sekolah Menengah Pertama)*
   - *MTs (Madrasah Tsanawiyah)*
+
 - __Pendidikan Menengah__
   - *SMA (Sekolah Menengah Atas)*
   - *MA (Madrasah Aliyah)*
   - *SMK (Sekolah Menengah Kejuruan)*
+
 - __Pendidikan Tinggi__
   - *D3 Diploma*
   - *S1/D4 Sarjana*
@@ -45,9 +49,58 @@ Buatlah sebuah project React yang memiliki 2 buah dropdown menu (_**Jenjang Pend
 
 >_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Dropdown-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan beserta jawaban nomor 1 via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-1&2-namaAnda__.*
 
-*__#HappyCoding__*
+#
+### **Soal 3 - Aplikasi Info Bitcoin**
+
+Buatlah sebuah aplikasi React yang memanfaatkan info seputar Bitcoin dari Blockchain API ([https://blockchain.info/api/exchange_rates_api](https://blockchain.info/api/exchange_rates_api)), dengan persyaratan sebagai berikut:
+- **Gunakan navigasi React-Router-DOM**
+  Aplikasi terdiri atas 3 halaman utama: info harga Bitcoin, konversi Rupiah ke Bitcoin dan konversi Bitcoin ke Rupiah. Gunakan Route untuk membuat path untuk setiap halaman.
+- **Gunakan Blockchain API**
+  - Halaman pertama (info harga Bitcoin) menyajikan harga jual & beli Bitcoin terhadap 5 mata uang asing: **_Dollar Australia (AUD), Euro Eropa (EUR), Poundsterling Inggris (GBP), Yen Jepang (JPY)_** dan **_Dollar Amerika (USD)_**. Gunakan Exchange Rates API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api).
+    ```bash
+    GET/ https://blockchain.info/ticker
+    ```
+  - ddc
+  - deded
+
+![Lintang_Bitcoin](https://4.bp.blogspot.com/-B6q5J-hz70Q/Ww9ic69eVnI/AAAAAAAAELE/W8cStewOUt8tk1NLkdRFArqfKVzgt9C_QCLcBGAs/s1600/soal3a.png)
+
+>_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Bitcoin-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-Bitcoin-namaAnda__.*
+
 
 #
+### **Soal 3 - Aplikasi Info Bitcoin**
+
+Buatlah sebuah aplikasi React yang memanfaatkan info seputar Bitcoin dari Blockchain API ([https://blockchain.info/api/exchange_rates_api](https://blockchain.info/api/exchange_rates_api)), dengan persyaratan sebagai berikut:
+
+- **Gunakan navigasi React-Router-DOM**
+  - Aplikasi terdiri atas **_3 halaman utama_**: info harga Bitcoin, konversi Rupiah ke Bitcoin dan konversi Bitcoin ke Rupiah. Gunakan Route untuk membuat path bagi setiap halaman.
+
+- **Gunakan Blockchain API**
+  - Halaman pertama (info harga Bitcoin) menyajikan harga jual & beli Bitcoin terhadap 5 mata uang asing: **_Dollar Australia (AUD), Euro Eropa (EUR), Poundsterling Inggris (GBP), Yen Jepang (JPY)_** dan **_Dollar Amerika (USD)_**. Gunakan Exchange Rates API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api). Untuk mendapatkan semua data harga Bitcoin terhadap beberapa mata uang asing, gunakan:
+    ```bash
+    GET
+    https://blockchain.info/ticker
+    ```
+
+  - Halaman kedua (konversi Rupiah ke Bitcoin) menyajikan fitur bagi user untuk mengkonversi Rupiah menjadi Bitcoin, dengan catatan 1 USD setara dengan Rp 14.000,-. Gunakan Bitcoin Conversion API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api). Sebagai contoh, untuk mengkonversi 500 USD menjadi harga Bitcoin, gunakan: 
+    ```bash
+    GET   
+    https://blockchain.info/tobtc?currency=USD&value=500
+    ```
+  
+  - Halaman ketiga (konversi Bitcoin ke Rupiah) menyajikan fitur bagi user untuk mengkonversi Bitcoin menjadi Rupiah, dengan catatan 1 USD setara dengan Rp 14.000,-. Gunakan Bitcoin Conversion API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api), yang sudah Anda pakai sebelumnya. 
+  
+    > _**Catatan:**_
+    Mata uang Indonesia (IDR/Rupiah) tidak termasuk dalam data yang disediakan API [Blockchain.info](https://blockchain.info/api/exchange_rates_api). Jadi, Anda harus sedikit memodifikasi data yang Anda dapat dari API tersebut.
+
+![Lintang_Bitcoin](https://4.bp.blogspot.com/-B6q5J-hz70Q/Ww9ic69eVnI/AAAAAAAAELE/W8cStewOUt8tk1NLkdRFArqfKVzgt9C_QCLcBGAs/s1600/soal3a.png)
+
+>_**Catatan:**_ *Commit/upload project ini ke akun Github Anda dengan nama repo: **Bitcoin-NamaAnda**. Salin file App.js aplikasi ini ke dalam format .txt, sertakan pula link url ke repo Github project ini. Kemudian kirimkan via email ke lintang@purwadhika.com dengan subject email: __Ujian-Front-Bitcoin-namaAnda__.*
+
+#
+
+*__#HappyCoding__*
 
 #### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
 
