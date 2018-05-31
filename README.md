@@ -58,7 +58,7 @@ Buatlah sebuah aplikasi React yang memanfaatkan info seputar Bitcoin dari Blockc
   - Aplikasi terdiri atas **_3 halaman utama_**: info harga Bitcoin, konversi Rupiah ke Bitcoin dan konversi Bitcoin ke Rupiah. Gunakan Route untuk membuat path bagi setiap halaman.
 
 - **Gunakan Blockchain API**
-  - Halaman pertama (info harga Bitcoin) menyajikan harga jual & beli Bitcoin terhadap 5 mata uang asing: **_Dollar Australia (AUD), Euro Eropa (EUR), Poundsterling Inggris (GBP), Yen Jepang (JPY)_** dan **_Dollar Amerika (USD)_**. Gunakan Exchange Rates API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api). Untuk mendapatkan semua data harga Bitcoin terhadap beberapa mata uang asing, gunakan:
+  - Halaman pertama (info harga Bitcoin) menyajikan harga jual & harga beli Bitcoin terhadap 5 mata uang asing: **_Dollar Australia (AUD), Euro Eropa (EUR), Poundsterling Inggris (GBP), Yen Jepang (JPY)_** dan **_Dollar Amerika (USD)_**. Gunakan Exchange Rates API yang disediakan [Blockchain.info](https://blockchain.info/api/exchange_rates_api). Untuk mendapatkan semua data harga Bitcoin terhadap beberapa mata uang asing, gunakan:
     ```bash
     GET
     https://blockchain.info/ticker
